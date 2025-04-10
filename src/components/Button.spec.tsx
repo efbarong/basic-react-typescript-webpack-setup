@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { render, screen, fireEvent } from '@testing-library/react';
-import Button from '../components/Button';
+import Button from './Button';
 
 describe('<Button />', () => {
   test('Renderiza el botón con la etiqueta correcta', () => {
