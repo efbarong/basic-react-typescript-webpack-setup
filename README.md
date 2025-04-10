@@ -9,7 +9,7 @@ En este proyecto, puedes ejecutar los siguientes comandos:
 ### `npm start`
 
 Inicia el servidor de desarrollo en modo de desarrollo.  
-Abre [http://localhost:3000](http://localhost:3000) para verlo en el navegador.
+Abre [http://localhost:8080](http://localhost:8080) para verlo en el navegador.
 
 ### `npm run build`
 
