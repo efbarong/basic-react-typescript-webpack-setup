@@ -11,6 +11,6 @@
     "src/**/*.test.tsx",
     "src/**/*.spec.ts",
     "src/**/*.spec.tsx",
-    "jest.setup.ts"
+    "test/jest.setup.ts"
   ]
 }
