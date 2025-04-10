@@ -4,7 +4,7 @@ module.exports = {
   preset: 'ts-jest',
   testEnvironment: 'jest-environment-jsdom',
   setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
-  testRegex: 'src/.*\\.(test|spec)\\.(ts|tsx)$',
+  testRegex: 'tests/.*\\.(test|spec)\\.(ts|tsx)$',
   moduleNameMapper: {
     '\\.(css|scss)$': 'identity-obj-proxy',
   },
@@ -12,7 +12,7 @@ module.exports = {
     '^.+\\.tsx?$': [
       'ts-jest',
       {
-        tsconfig: 'tsconfig.spec.json',
+        tsconfig: 'tests/tsconfig.spec.json',
       },
     ],
   },
